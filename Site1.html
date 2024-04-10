@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цветная адаптивная сетка</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .block {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 150px; /* Высота блока */
+            border: 2px solid #ccc; /* Белый или светло-серый цвет рамки */
+        }
+        /* Медиа-запросы для адаптивности */
+        @media (max-width: 500px) {
+            /* Стили для экранов шириной до 500px */
+        }
+        @media (min-width: 501px) and (max-width: 750px) {
+            /* Стили для экранов шириной от 501px до 750px */
+        }
+        @media (min-width: 751px) and (max-width: 950px) {
+            /* Стили для экранов шириной от 751px до 950px */
+        }
+        @media (min-width: 951px) and (max-width: 1200px) {
+            /* Стили для экранов шириной от 951px до 1200px */
+        }
+        @media (min-width: 1201px) {
+            /* Стили для экранов шириной более 1200px */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="block one">1</div>
+        <div class="block two">2</div>
+        <div class="block three">3</div>
+        <div class="block four">4</div>
+        <div class="block five">5</div>
+        <div class="block six">6</div>
+        <div class="block seven">7</div>
+    </div>
+</body>
